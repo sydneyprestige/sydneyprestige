@@ -245,8 +245,9 @@ export default function SydneyPrestigePaintingWebsite() {
               </select>
 
               <textarea
-                name="message"
-                rows="6"
+  name="message"
+  rows={6}
+  
                 placeholder="Tell us about your project..."
                 required
                 className="w-full p-4 rounded-xl bg-[#091a36] border border-white/10"
